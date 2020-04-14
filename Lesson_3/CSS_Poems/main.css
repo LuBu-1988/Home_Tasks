@@ -1,0 +1,27 @@
+h1 {
+    text-align: center;
+}
+
+.mainBlock {
+    display: flex;
+    justify-content: space-around;
+    font-size: 25px;
+}
+
+.block1, .block2, .block3 {
+    display: inline-block;
+    width: 400px;    
+}
+
+.block1 {
+    font-family: 'Gaegu', cursive;
+    font-family: 'Pacifico', cursive;
+}
+
+.block2 {
+    font-family: 'Marck Script', cursive;
+}
+
+.block3 {
+    font-family: 'Bad Script', cursive;
+}
