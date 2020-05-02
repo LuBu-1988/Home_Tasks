@@ -1,0 +1,30 @@
+.root {
+    background-image: url(cards2.png);
+    height: 200px;
+    width: 150px;
+    background-repeat: no-repeat;    
+    background-position: -284px -383px;
+    margin-bottom: 100px;
+    
+}
+
+td, table, th {
+    border: 1px solid black;
+}
+
+td {
+    height: 30px;
+}
+
+.tableHead {
+    background-color: #a0a0a0;
+    height: 50px;
+    text-align: left;
+}
+
+table {
+    width: 400px;
+    border-collapse: collapse;
+    table-layout: auto;    
+}
+
