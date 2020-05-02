@@ -1,0 +1,66 @@
+.borderLeft {
+    width: 500px;
+    height: 500px;
+    background: url('img/ral.png');
+    background-repeat: repeat-y;
+}
+
+.borderRight {
+    width: 500px;
+    height: 500px;
+    background: url('img/ral.png');
+    background-repeat: repeat-y;
+    background-position: right;
+}
+
+.borderTop {
+    width: 500px;
+    height: 500px;
+    background: url('img/tab.png');
+    background-repeat: repeat-x;
+}
+
+.borderBottom {
+    width: 500px;
+    height: 500px;
+    background: url('img/tab.png');
+    background-repeat: repeat-x;
+    background-position: bottom;
+}
+
+.topRight {
+    width: 500px;
+    height: 500px;
+    background: url('img/top_right.png');
+    background-repeat: no-repeat;
+    background-position: right top;
+}
+
+.bottomRight {
+    width: 500px;
+    height: 500px;
+    background: url('img/bottom_right.png');
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    
+} 
+
+.bottomLeft {
+    width: 500px;
+    height: 500px;
+    background: url('img/bottom_left.png');
+    background-repeat: no-repeat;
+    background-position: bottom left;
+    
+}
+.topLeft {
+    width: 500px;
+    height: 500px;
+    background: url('img/top_left.png');
+    background-repeat: no-repeat;
+    background-position: top left;
+}
+.text{
+    font-size: 22px;
+    padding: 10%;
+}
