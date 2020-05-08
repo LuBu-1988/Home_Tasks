@@ -1,24 +1,21 @@
 * {
     margin: 0;
 }
-body {
-    background: url('img/3.PNG') left repeat-y;
+.mainBlock {
+    background: url('img/3.PNG')  repeat-y;
 }
 .header, .footer {
     font-size: 32px;
     text-align: center;
-    padding: 1px;
-    line-height: 100px;
+    padding-top: 40px;
     text-transform: uppercase;
-    min-height: 100px;
+    height: 80px;
     width: 100%;
     color: white;
     background-color: #1D1D1D;
     clear: both;
 }
-.mainBlock {
-    min-height: 720px;
-}
+
 h2 {
     margin-bottom: 20px;
 }
@@ -35,12 +32,13 @@ a {
     color: white;
 }
 img {
-    padding: 0px 20px 20px 20px;
+    padding: 0px 20px 20px 10px;
     float: left;
 }
 
 li {
     margin-bottom: 5px;
+    font-size: 22px;
 }
 
 li :hover{
@@ -50,7 +48,7 @@ li :hover{
 }
 
 .blockBackground {
-    margin-left: 410px;
+    margin-left: 400px;
     font-size: 18px;
     background: url('img/2.png') right repeat-y;
 }
