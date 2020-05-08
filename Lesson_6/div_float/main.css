@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+}
+.mainBlock {
+    background-image: url('img/3.PNG') left repeat-y;
+}
+.header, .footer {
+    font-size: 32px;
+    text-align: center;
+    line-height: 100px;
+    text-transform: uppercase;
+    height: 100px;
+    width: 100%;
+    color: white;
+    background-color: #1D1D1D;
+    clear: both;
+}
+
+
+h2 {
+    margin-bottom: 20px;
+}
+
+.menuBar {
+    float: left;
+    height: 100%;
+    width: 400px;
+    background-color: #585858;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+img {
+    padding: 0px 20px 20px 20px;
+    float: left;
+}
+
+li {
+    margin-bottom: 5px;
+}
+
+li :hover{
+    width: 1.5em;
+    background-color: #1D1D1D;  
+    transition: 0.3s;
+}
+
+.blockBackground {
+    margin-left: 410px;
+    font-size: 18px;
+    background: url('img/2.png') right repeat-y;
+}
+
+.filmName {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 50px;
+}
+
+.description {
+    font-size: 20px;
+}
