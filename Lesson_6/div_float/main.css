@@ -3,7 +3,7 @@
 }
 .mainBlock {
     background: url('img/3.PNG') left repeat-y, url('img/2.png') right repeat-y;
-    overflow: hidden;    
+    display: inline-block;    
 }
 
 .header, .footer {
