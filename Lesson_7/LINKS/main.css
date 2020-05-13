@@ -1,0 +1,65 @@
+* {
+    box-sizing: border-box;
+    font-size: 24px;
+}
+a {
+    color: green;
+}
+li :hover {
+    color: red;
+}
+li {
+    list-style-type: none;
+    padding-right: 20px;
+    margin-right: 20px;
+    border-right: 3px solid red;
+}
+
+
+                /* Блок DIV c классом Menu1 */
+
+div.Menu1 li {
+    display: inline;
+    
+}
+div.Menu1 li:last-child {
+    border-right: none;
+}
+
+                /* Блок DIV c классом Menu2 */
+
+div.Menu2 li {
+    display: inline-block;
+    
+}
+div.Menu2 li:last-of-type {
+    border-right: none;
+}
+
+                /* Блок DIV c классом Menu3 */
+
+div.Menu3 {
+    display: inline-block;
+}
+div.Menu3 li {
+    float: left;
+    
+}
+div.Menu3 li:nth-child(5) {
+    border-right: none;
+}
+
+                /* Блок DIV c классом Menu4 */
+
+div.Menu4 {
+    clear: both;
+}
+
+div.Menu4 ul {
+    display: flex;
+    
+}
+div.Menu4 li:last-child {
+    border-right: none;
+}
+
