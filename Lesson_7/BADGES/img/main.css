@@ -1,0 +1,23 @@
+.green {
+    color: green;
+}
+
+.red {
+    color: red;
+}
+.blue {
+    color: royalblue;
+}
+
+.borderRed {
+     border: 1px solid red;
+}
+
+a { 
+    text-decoration: none;
+    font-weight: bold;
+}
+
+p {
+    margin: 0;
+}
