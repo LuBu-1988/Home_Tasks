@@ -1,16 +1,17 @@
 .STARS {
     margin: 0;
-    width: 400px;
+    width: 440px;
 }
 a.starRoll {
-    background: url(img/star0.png);
+    background: url(img/star0.png) no-repeat left;
     display: block;
     width: 75px;
     height: 78px;
     float: right;
-    margin-right: 5px;
+    padding-right: 10px;
 }
 
 a.starRoll:hover, a.starRoll:hover ~ a {
-    background: url(img/star1.png);
+    background: url(img/star1.png) no-repeat left;
+    padding-right: 10px;
 }
