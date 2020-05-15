@@ -1,15 +1,16 @@
+.STARS {
+    margin: 0;
+    width: 400px;
+}
 a.starRoll {
     background: url(img/star0.png);
     display: block;
     width: 75px;
     height: 78px;
-    float: left;
+    float: right;
     margin-right: 5px;
 }
-a.starRoll:hover {
-    background: url(img/star1.png);
-}
 
-.STARS .starRoll:hover ~ .starRoll::before {
-    background: url(img/star0.png);
+a.starRoll:hover, a.starRoll:hover ~ a {
+    background: url(img/star1.png);
 }

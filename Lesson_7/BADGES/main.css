@@ -15,14 +15,14 @@ a {
     font-weight: bold;
 }
 
-/* a::before {
+a[href^='https://']::before {
     content: url(img/extref.png);
-} */
+}
 
-a[href^='https://']{
+/* a[href^='https://']{
     background: url(img/extref.png) no-repeat left;
     padding-left: 12px;
-}
+} */
 p {
     margin: 0;
 }
