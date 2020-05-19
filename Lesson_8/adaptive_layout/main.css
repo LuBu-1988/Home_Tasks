@@ -78,8 +78,15 @@ li :hover{
     }
 
     .mainBlock {
+        display: flex;
+        flex-direction: column-reverse;
         background: none;
+        background: url('img/2.png') right repeat-y;
     }
+
+    /* .menuBar, .blockInfo {
+        display: block;
+    } */
 
     .menuBar {
         width: 100%;
@@ -103,29 +110,35 @@ li :hover{
         width: 100%;
     }
 
+    h2.list {
+        padding-top: 10px;
+    }
+
     h3.filmName {
-        margin-bottom: 20px;
+        margin: 10px 0px 20px 0px;
     }
 
     ul {
+        display: flex;
+        flex-wrap: wrap;
         padding: 0;
     }
 
     li {
+        width: 30%;
         margin-bottom: 5px;
         margin-left: 10px;
         list-style-type: none;
         float: left;
-        border-bottom: 1px solid white;
 }
 
     li, p.description {
         font-size: 17px;
     }
 
-.list {
-    text-align: center;
-}
+    .list {
+        text-align: center;
+    }
 
     
 }
