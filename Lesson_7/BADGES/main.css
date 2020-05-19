@@ -26,3 +26,7 @@ a[href^='https://']::before {
 p {
     margin: 0;
 }
+
+@media print {
+    a[href*='#'] {font-size: 0px;}
+}

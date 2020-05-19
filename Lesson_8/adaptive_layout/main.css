@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+}
+.mainBlock {
+    background: url('img/3.PNG') left repeat-y, url('img/2.png') right repeat-y;
+    display: inline-block;    
+}
+
+.header, .footer {
+    font-size: 32px;
+    text-align: center;
+    padding-top: 40px;
+    text-transform: uppercase;
+    height: 80px;
+    width: 100%;
+    color: white;
+    background-color: #1D1D1D;
+    clear: both;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+.menuBar {
+    float: left;
+    width: 400px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+img.birdCaseDesk {
+    padding: 0px 20px 20px 10px;
+    float: left;
+}
+
+.birdCaseMobile {
+    display: none;
+}
+
+li {
+    margin-bottom: 5px;
+    font-size: 22px;
+}
+
+li :hover{
+    width: 1.5em;
+    background-color: #1D1D1D;  
+    transition: 0.3s;
+}
+
+.blockInfo {
+    margin-left: 400px;
+    font-size: 18px;
+    
+}
+
+.filmName {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 50px;
+}
+
+.description {
+    font-size: 20px;
+}
+
+
+
+
+
+
+@media screen and (max-width: 668px) {
+    .footer, .header {
+        display: none;
+    }
+
+    .mainBlock {
+        background: none;
+    }
+
+    .menuBar {
+        width: 100%;
+        background: url('img/3.PNG') repeat;
+        float: right;
+    
+    }
+
+    .blockInfo {
+        margin: 0;
+        width: 100%;
+        float: left;
+    }
+
+    .birdCaseDesk {
+        display: none;
+    }
+
+    img.birdCaseMobile {
+        display: block;
+        width: 100%;
+    }
+
+    h3.filmName {
+        margin-bottom: 20px;
+    }
+
+    ul {
+        padding: 0;
+    }
+
+    li {
+        margin-bottom: 5px;
+        margin-left: 10px;
+        list-style-type: none;
+        float: left;
+        border-bottom: 1px solid white;
+}
+
+    li, p.description {
+        font-size: 17px;
+    }
+
+.list {
+    text-align: center;
+}
+
+    
+}
