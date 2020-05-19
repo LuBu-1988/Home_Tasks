@@ -47,7 +47,9 @@ li {
 
 li :hover{
     width: 1.5em;
-    background-color: #1D1D1D;  
+    border: 1px solid white;    
+    background-color: #1D1D1D;
+    padding: 2px;  
     transition: 0.3s;
 }
 
@@ -84,21 +86,15 @@ li :hover{
         background: url('img/2.png') right repeat-y;
     }
 
-    /* .menuBar, .blockInfo {
-        display: block;
-    } */
-
     .menuBar {
         width: 100%;
         background: url('img/3.PNG') repeat;
-        float: right;
     
     }
 
     .blockInfo {
         margin: 0;
         width: 100%;
-        float: left;
     }
 
     .birdCaseDesk {
@@ -130,7 +126,7 @@ li :hover{
         margin-left: 10px;
         list-style-type: none;
         float: left;
-}
+    }    
 
     li, p.description {
         font-size: 17px;
