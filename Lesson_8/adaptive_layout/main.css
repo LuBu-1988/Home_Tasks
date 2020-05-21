@@ -27,6 +27,10 @@ h2 {
     width: 400px;
 }
 
+.menuBar2 {
+    display: none;
+}
+
 a {
     text-decoration: none;
     color: white;
@@ -74,19 +78,23 @@ li :hover{
 
 
 
-@media screen and (max-width: 668px) {
+@media screen and (max-width: 700px) {
     .footer, .header {
         display: none;
     }
 
     .mainBlock {
-        display: flex;
-        flex-direction: column-reverse;
         background: none;
         background: url('img/2.png') right repeat-y;
     }
 
     .menuBar {
+        display: none;
+    }
+
+    .menuBar2 {
+        display: inline-block;
+        padding: 10px 0px 10px 0px;
         width: 100%;
         background: url('img/3.PNG') repeat;
     
@@ -115,13 +123,13 @@ li :hover{
     }
 
     ul {
-        display: flex;
-        flex-wrap: wrap;
+        display: inline-block;
+        margin: 0 auto;
         padding: 0;
+        text-align: center;
     }
 
     li {
-        width: 30%;
         margin-bottom: 5px;
         margin-left: 10px;
         list-style-type: none;
@@ -132,8 +140,9 @@ li :hover{
         font-size: 17px;
     }
 
-    .list {
+    h2.list   {
         text-align: center;
+        padding-top: 0;
     }
 
     
