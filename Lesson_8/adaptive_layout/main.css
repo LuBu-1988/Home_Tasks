@@ -152,6 +152,6 @@ li :hover{
 @media screen and (min-width: 701px) and (max-width: 822px) {
     img.birdCaseDesk {
         float: none;
-        width: 320px;
+        /* width: 320px; */
     }
 }
