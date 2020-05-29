@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORMS</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <form class="main" method="GET">
+        <p>Для публикации вашей статьи заполните, пожалуйста, следующую форму: </p>
+        
+        <div class="field">
+            <label>Название статьи: </label>
+            <input class="textField" type="text" name="state">        
+        </div>
+        <div class="field">
+        <label>Рубрика: </label>
+            <select name='show'>
+                <option value="1">Программирование</option>
+                <option value="2">Животные</option>
+                <option value="3">Люди</option>
+                <option value="4">Общение</option>
+                <option value="5">Гастротур</option>
+                <option value="6">Психология</option>
+            </select>        
+        </div>
+        <div class="field">
+            <label>Публикация: </label>
+            <input type="radio" name="status1"><span>на сайте</span>
+            <input type="radio" name="status2"><span>в журнале</span>
+            <input type="radio" name="status3"><span>на сайте и в журнале</span>      
+        </div>
+        <div class="field">
+            <label>Разрешить комментарии: </label>
+            <input type="checkbox" name="checker">         
+        </div>
+        <div class="field fieldTextarea">
+            <label>Текст статьи: </label><br>
+            <textarea name='mytext'></textarea><br>    
+            <input type='submit' value='Опубликовать'>
+        </div>
+    </form>
+</body>
+</html>

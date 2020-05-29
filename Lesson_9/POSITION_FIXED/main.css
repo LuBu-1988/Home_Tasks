@@ -1,6 +1,25 @@
 * {
     margin: 0;
 }
+
+.registration {
+    position: fixed;
+    width: 100px;
+    height: 30px;
+    top: 10px;
+    right: 15px;
+    background-color: rgba(88, 92, 99, 0.6);
+    color: white;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.registration a.reg {
+    text-decoration: yellow;
+    font-size: 15px;
+}
+
 .mainBlock {
     background: url('img/3.PNG') left repeat-y, url('img/2.png') right repeat-y;
     display: inline-block;    
@@ -151,5 +170,11 @@ li :hover{
     img.birdCaseDesk {
         float: none;
         /* width: 320px; */
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .registration {
+        top: 70px;
     }
 }

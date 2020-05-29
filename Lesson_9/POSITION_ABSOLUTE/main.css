@@ -1,0 +1,41 @@
+.mainBlock {
+    width: 100%;    
+} 
+
+.mainBlock p {
+    text-align: center;
+    font-size: 22px;
+}
+
+.pics {
+    position: relative;
+    width: 500px;
+    margin-top: 50px;
+    margin: auto;
+}
+
+.firstPic {
+    position: absolute;
+    left: -10px;
+    top: 35px;
+}
+.secondPic {
+    position: absolute;
+    right: 75px;
+    top: 25px;
+}
+.thirdPic {
+    position: absolute;
+    top: 250px;
+    left: 100px;
+}
+
+.forthPic {
+    position: absolute;
+    top: 100px;
+    left: 75px;
+}
+.pics img:nth-child(n+1):hover {    
+    z-index: 1;
+}
+
