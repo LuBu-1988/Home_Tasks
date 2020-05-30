@@ -1,32 +1,57 @@
+* {
+    box-sizing: border-box;
+}
 .main {
     border: 1px solid red;
     font-size: 18px;
-    width: 800px;
+    width: 100%;
     display: inline-block;
     
 }
 .field {
     display: inline-block;
-    float: left;
+    width: 100%;
     clear: both;
     line-height: 25px;
 }
 .textField {
-    margin-left: 200px;
     width: 100%;
 }
 
 label {
     display: block;
-    width: 200px;
+    width: 15em;
     float: left;
 }
 textarea {
     min-height: 150px;
+    min-width: 100%;
 }
 
-@media and screen (max-width: 820px) {
-    .main {
-        width: 400px;
+.textFieldBlock {
+    margin-left: 15em;
+}
+.radioInput {
+    display: inline-block;
+}
+
+
+@media screen and (max-width: 663px) {
+    label {
+        display: block;
+        width: 12em;
+    }
+    .public {
+        float: none;
+    }
+
+    .textFieldBlock {
+        margin-left: 0;
+    }
+    select {
+        width: 100%;
+    }
+    .radioInput {
+        display: block;
     }
 }

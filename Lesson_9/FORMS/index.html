@@ -12,7 +12,7 @@
         
         <div class="field">
             <label>Название статьи: </label>
-            <input class="textField" type="text" name="state">        
+            <div class="textFieldBlock"><input class="textField" type="text" name="state"></div>      
         </div>
         <div class="field">
         <label>Рубрика: </label>
@@ -26,16 +26,16 @@
             </select>        
         </div>
         <div class="field">
-            <label>Публикация: </label>
-            <input type="radio" name="status1"><span>на сайте</span>
-            <input type="radio" name="status2"><span>в журнале</span>
-            <input type="radio" name="status3"><span>на сайте и в журнале</span>      
+            <label class="public">Публикация: </label>
+            <div class="radioInput"><input type="radio" name="status1"><span>на сайте</span></div>
+            <div class="radioInput"><input type="radio" name="status2"><span>в журнале</span></div>
+            <div class="radioInput"><input type="radio" name="status3"><span>на сайте и в журнале</span></div>     
         </div>
         <div class="field">
             <label>Разрешить комментарии: </label>
             <input type="checkbox" name="checker">         
         </div>
-        <div class="field fieldTextarea">
+        <div class="field">
             <label>Текст статьи: </label><br>
             <textarea name='mytext'></textarea><br>    
             <input type='submit' value='Опубликовать'>
