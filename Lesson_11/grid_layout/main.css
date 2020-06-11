@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.mainBlock {
+    display: grid;
+    grid-template-columns: 300px 1fr; 
+    background: url('img/2.png') right repeat-y;       
+}
+
+.header, .footer {
+    display: grid;
+    grid-template-rows: 80px;
+    justify-content: center;
+    align-items: center;
+    font-size: 32px;    
+    text-transform: uppercase;
+    color: white;
+    background-color: #1D1D1D;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+.menuBar {
+    background-color: #585858;
+}
+
+.menuBar2 {
+    display: none;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+img.birdCaseDesk {
+    padding: 0px 20px 20px 10px;
+    float: left;
+}
+
+.birdCaseMobile {
+    display: none;
+}
+
+ul {
+    padding-left: 40px;
+}
+
+li {
+    margin-bottom: 5px;
+    font-size: 22px;
+}
+
+li :hover{
+    width: 1.5em;
+    border: 1px solid white;    
+    background-color: #1D1D1D;
+    padding: 2px;  
+    transition: 0.3s;
+}
+
+.blockInfo {
+    display: grid;
+    grid-template-rows: 60px auto;
+    font-size: 18px;
+}
+
+.filmName {
+    text-align: center;
+    font-size: 24px;
+}
+
+.description {
+    font-size: 20px;
+}
+
+
+
+
+
+
+@media screen and (max-width: 800px) {
+    .footer, .header {
+        display: none;
+    }
+
+    .mainBlock {
+        grid-template-rows: 1fr;
+        grid-template-columns: 1fr;
+        background: none;
+        background: url('img/2.png') right repeat-y;
+    }
+
+    .menuBar {
+        display: none;
+    }
+
+    .menuBar2 {
+        display: grid;
+        padding: 10px 0px 10px 0px;
+        background-color: #585858;    
+    }
+
+    .blockInfo {
+        margin: 0;
+        grid-row: 1;
+    }
+
+    .birdCaseDesk {
+        display: none;
+    }
+
+    img.birdCaseMobile {
+        display: block;
+        width: 100%;
+    }
+
+    h2.list {
+        padding-top: 10px;
+    }
+
+    h3.filmName {
+        margin: 10px 0px 20px 0px;
+    }
+
+    ul {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        padding-left: 0;
+    }
+
+    li {
+        list-style-type: none;
+        padding: 5px;
+    }   
+
+    li, p.description {
+        font-size: 17px;
+    }
+
+    h2.list   {
+        text-align: center;
+        padding-top: 0;
+    }
+
+    
+}
