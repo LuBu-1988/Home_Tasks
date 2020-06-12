@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Gaegu&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: 40px;
+}
+.container {
+    background-color: blanchedalmond;
+    width: 100%;
+    height: 700px;
+    border: 5px solid red;
+    float: right;
+}
+div.container:hover section.img  {
+
+        animation: roll 7s infinite linear;
+
+}
+
+/*.img {
+    animation: roll 7s infinite linear;
+}  p {
+    animation: riding 5s infinite linear;
+}*/
+
+.square {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    width: 300px;
+    height: 300px;
+    background-color: chocolate;
+    color: black;
+    top: 70px;
+    left: 70px;
+    font-family: 'Gaegu', cursive;
+    animation: roll 6s infinite linear;    
+}
+
+.img-1 {
+    position: absolute;
+    top: 400px;
+    left: 500px;
+}
+
+.img-2 {
+    position: absolute;
+    top: 300px;
+    left: 750px;
+    width: 500px;
+    height: 400px;
+    border: 2px solid darkolivegreen;
+    overflow: hidden;
+}
+
+
+@keyframes riding {
+    0% {
+      margin-left: 100%;
+      width: 300%; 
+    }
+    75% {
+        font-size: 300%;
+        margin-left: 25%;
+        width: 150%;
+    }
+  
+    100% {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
+
+@keyframes roll {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.wrapper {
+    align-self: center;
+    text-align: center;
+    animation: roll2 3s infinite linear;
+}
+
+@keyframes roll2 {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(-360deg);
+    }
+}
+
+

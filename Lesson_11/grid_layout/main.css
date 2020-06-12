@@ -133,6 +133,7 @@ li :hover{
     }
 
     li {
+        text-align: center;
         list-style-type: none;
         padding: 5px;
     }   
@@ -144,7 +145,17 @@ li :hover{
     h2.list   {
         text-align: center;
         padding-top: 0;
-    }
+    }    
+}
 
-    
+@media screen and (max-width: 510px) {
+    ul {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    ul {
+        grid-template-columns: 1fr 1fr;
+    }
 }
