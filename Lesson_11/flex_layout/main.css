@@ -23,15 +23,10 @@ h2 {
 }
 
 .menuBar {
-    display: flex;
     flex: 0 0 300px;
     background-color: #585858;
 }
 
-.list {
-    display: flex;
-    flex-direction: column;
-}
 
 .menuBar2 {
     display: none;
@@ -71,8 +66,6 @@ li :hover{
 }
 
 .blockInfo {
-    display: flex;
-    flex-direction: column;    
     flex: 0 3 100%;
     font-size: 18px;
 }
@@ -98,6 +91,7 @@ li :hover{
     }
 
     .mainBlock {
+        display: flex;
         flex-direction: column;
         background: none;
         background: url('img/2.png') right repeat-y;
@@ -108,8 +102,7 @@ li :hover{
     }
 
     .menuBar2 {
-        display: flex;
-        flex-direction: column;
+        display: block;
         padding: 10px 0px 10px 0px;
         background-color: #585858;    
     }
