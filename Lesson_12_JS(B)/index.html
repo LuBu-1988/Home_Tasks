@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en-ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORM</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <section class="form">
+        <form name="f1">
+            <p>Пожалуйста, заполните форму данными!</p>
+            <div class="data">
+                <div class="textField">
+                    <label>Фамилия: </label>
+                    <input type="text" id="yFam" placeholder="Иванов">
+                </div>
+                <div class="textField">
+                    <label>Имя: </label>
+                    <input type="text" id="yName" placeholder="Иван">
+                </div>
+                <div class="textField">
+                    <label>Отчество: </label>
+                    <input type="text" id="sName" placeholder="Иванович">
+                </div>
+                <div class="textField">
+                    <label>Возраст: </label>
+                    <input type="number" id="old" placeholder="от 0 до 120">
+                </div>
+                <div class="textField">
+                    <label>Ваш пол: </label>
+                    <input type="text" id="gender" placeholder="Мужской/Женский">
+                </div>
+                <div class="textFieldButton">
+                    <button class="btn" onclick="familiya()">Сохранить</button>
+                </div>
+            </div>
+        </form>
+    </section>
+</body>
+<script src="main.js" defer></script>
+</html>
