@@ -10,7 +10,7 @@
     var myAge = myOld + 5;
 
     myGen = (myGen)?'Мужской':'Женский';
-    pen += (myGen && myOld>=60 || myGen===false && myOld>=55)?'да':'нет';
+    pen += (myGen && myOld>=60)?'да':(myGen && myOld<60)?'нет':(myGen === false && myOld>=55)?'да':(myGen === false && myOld<55)?'нет':'нет';
     
 
     alert('Ваши ФИО: ' + myFam + ' ' + myName + ' ' + mySN + '\n' + 'Ваш возраст в годах: ' + myOld
