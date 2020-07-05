@@ -1,0 +1,715 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rufina&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+div.mainContainer {
+    width: 100%;
+}
+
+header.topHeader {    
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding-top: 20px;
+}
+
+div.header-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 70%;
+}
+
+div.mainIcon {
+    width: 30%;    
+}
+
+nav.headNav {  
+    display: flex;
+    align-items: flex-end;  
+    margin: 0px 0px 7px 10px;    
+    width: 70%;    
+}
+    
+ul.navList {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+}
+a {
+    text-decoration: none;
+    color: #263a41;
+}
+
+a.header-list-link:nth-child(1), a.header-list-link:nth-child(2), a.header-list-link:nth-child(3), a.header-list-link:nth-child(4) {
+    margin-right: 50px;
+}
+
+/*Banner*/
+
+
+div.banner {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    margin-top: 92px;
+    padding-top: 10px;
+    background: url(/img/flower_big.png) no-repeat left -170px center;
+}
+
+section.headerSubscr {
+    display: flex;
+    width: 70%;
+    flex-direction: column;
+    margin: 194px 0px 0px 0px;
+}
+
+p.spa-beauty-center {
+    width: 199px;
+    margin-bottom: 39px;
+    font-family: Rufina;
+    font-size: 15px;
+    color: #ff817e;
+}
+
+p.beauty-and-success-starts-here {
+    margin-bottom: 47px;
+    font-family: Rufina;
+    font-size: 60px;
+    font-weight: bold;
+    color: #1e2528;
+    width: 534px;
+}
+
+p.together-creeping {
+    width: 499px;
+    margin-bottom: 55px;
+    line-height: 1.8;
+    font-family: Roboto;
+    font-size: 15px;
+    color: #555555;
+}
+
+div.btn {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+a.btn-1 {
+    height: 50px;
+    background-color: #ff817e;
+    border-radius: 0;
+    color: #fff;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 0.8;
+    text-align: center;
+    text-transform: uppercase;
+    min-width: 170px;
+    padding: 20px 15px;
+}
+
+a.btn-1:hover {
+    color: black;
+}
+
+a.play {
+    margin-left: 55px;
+}
+
+p.playSub {
+    margin-left: 15px;
+    font-family: Roboto;
+    font-size: 15px;
+    color: #555555;
+}
+
+
+/* About SPA*/
+
+section.about {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 139px;
+}
+
+div.descrip-about {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    width: 856px;    
+}
+
+p.about-title {
+    margin-top: 40px;
+    font-family: Roboto;
+    font-size: 20px;
+    letter-spacing: 2px;
+    color: #888888;
+}
+
+p.main-title {
+    margin-top: 35px;
+    font-family: Rufina;
+    font-size: 42px;
+    color: #1e2528;
+}
+
+p.title-description {
+    margin-top: 38px;
+    font-family: Roboto;
+    font-size: 15px;
+    color: #888888;
+}
+
+div.btn-read-more {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 71px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 170px;
+    height: 50px;
+    border-radius: 25px;
+    background-color: #ff817e;
+    font-family: Roboto;
+    font-size: 13px;
+    letter-spacing: 0.52px;
+    text-transform: uppercase;
+}
+
+a.desc-btn {
+    color: #ffffff;
+}
+
+a.desc-btn:hover {
+    color: black;
+}
+
+
+/*Photos-block*/
+
+.container-photo {
+    display: flex;
+    margin-top: 140px;
+    justify-content: space-between;
+}
+
+div.photos {
+    display: block;
+    position: relative;
+}
+
+div.photos:after {
+     content: '';
+     position: absolute;
+     top: 0;
+     left: 0;
+     right: 0; 
+     bottom: 0;
+     background: rgba(255, 187, 187, 0.5);
+     opacity: 0; 
+}
+
+div.photos:hover:after {
+     opacity: 1; 
+}
+
+img.people-photo {
+    width: 100%;
+    height: 100%;
+}
+
+section.popular-procedures {
+    display: flex;
+    justify-content: center;
+    margin-top: 140px;
+    flex-direction: column;
+    text-align: center;
+}
+
+p.popular {
+    font-family: Rufina;
+    font-size: 42px;
+    color: #263a41;
+}
+
+p.procedures {
+    margin-top: 29px;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Roboto;
+    font-size: 15px;
+    color: #888888;
+}
+
+/*Description-procedures-photos*/
+
+section.procedures-container {
+    display: flex;
+    margin-top: 95px;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+div.container-for-photoDesc {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 70%;
+}
+
+div.procedures-desc-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    width: 360px;
+    text-align: center;
+    border: 1px solid lightgrey;
+    transition: transform 0.1s ease-in-out;
+    transition: box-shadow 0.5s ease-in-out;
+}
+
+div.procedures-desc-container:hover {
+    transform: scale(1.05);
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+div.procedures-photo-people {
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+p.procedures-title {
+    margin-top: 40px;
+    font-family: Rufina;
+    font-size: 22px;
+    font-weight: bold;
+    color: #263a41;
+}
+
+p.procedures-desc {
+    margin-top: 29px;
+    font-family: Roboto;
+    font-size: 14px;
+    color: #888888;
+}
+
+div.btn-popular {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 140px;
+    height: 44px;
+    margin: 45px auto 50px auto;
+    text-transform: uppercase;
+    border-radius: 22px;
+    background-color: #30383b;
+}
+
+div.btn-popular:hover {
+    background-color: #ff817e;
+    transition: ease-in-out 0.2s;
+}
+
+
+/*Slider*/
+
+.slider-container {
+    display: flex;
+    justify-content: center;
+	position: relative;
+	margin-top: 140px;
+	width: 100%;
+	height: 713px;
+	background-color: #fff9f8;
+}
+
+.slides {
+    display: flex;
+    width: 60%;
+    flex-direction: column;
+    justify-content: center;
+	position: absolute;
+	visibility: hidden;
+	opacity: 0;
+	-webkit-transition: .5s;
+    -moz-transition: .5s;
+    -o-transition: .5s;
+    transition: .5s;
+}
+
+.slides, .slider-icon-quote, .slider-icon-girl {    
+    text-align: center;
+}
+
+.slider-icon-quote {
+    margin-top: 137px;
+}
+
+.slider-icon-girl {
+    margin-top: 50px;
+}
+
+p.slider-desc {
+    margin-top: 50px;
+    font-family: Rufina;
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 1.94;
+    color: #1e2528;
+}
+
+p.Jack-Marsh-Executive {
+    margin-top: 30px;
+    font-family: Rufina;
+    font-size: 22px;
+    line-height: 1.59;
+    color: #263a41; 
+}
+
+span.Jack-Marsh-text-style-1 {
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.slides img {
+    width: 63px;
+}
+
+.slide_img {
+	display: none;
+}
+
+.switchers {
+	margin: 60px 0px 137px 0px;
+}
+.switcher {
+	width: 10px;
+    height: 10px;
+    background-color: #ffc3c2;
+	position: relative;
+	margin: 0 4px;
+	display: inline-block;
+	border-radius: 50%;
+	cursor: pointer;
+}
+
+#img_1:checked ~ #first,
+#img_2:checked ~ #second 
+{
+	visibility: visible;
+	opacity: 1;
+}
+
+#img_1:checked ~ div #switcher1,
+#img_2:checked ~ div #switcher2
+{
+	background: #F08080;
+}
+
+
+/*Experienced Team*/
+
+section.team-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 95px;
+}
+div.team-flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 70%;
+    justify-content: space-between;
+}
+
+.teamate-container {
+    display: flex;
+    flex-direction: column;
+    width: 360px;
+    text-align: center;
+}
+
+.teamate-photo {
+    width: 100%;
+    height: 100%;
+}
+
+div.teamate-desc {
+    background-color: #ffffff;
+    position: relative;
+    top: -70px;
+    width: 300px;
+    height: 171px;
+    margin: 0 auto;
+    padding-bottom: 10px;
+    transition: top .2s linear;
+}
+
+div.teamate-desc:hover {
+    top: -130px;
+}
+
+
+p.teamate-name {
+    margin-top: 38px;
+    font-family: Rufina;
+    font-size: 22px;
+    font-weight: bold;
+    line-height: 1.23;
+    color: #263a41;
+}
+
+p.message {
+    margin-top: 5px;
+    font-family: Roboto;
+    font-size: 15px;
+    line-height: 1.8;
+    color: #888888;
+}
+
+div.icons-32 {
+    display: flex;
+    width: 70%;    
+    margin: 30px auto 0px auto;
+    flex-direction: row;
+    justify-content: center;
+    opacity: 0;
+    
+}
+
+a.icons-social {
+    width: 36px;
+    height: 33px;
+    margin: 0px auto;
+    border-radius: 15px;
+    background-image: url(/icons/spritesheet_32.png);
+    background-repeat: no-repeat;    
+}
+
+#facebook {
+    background-position: -4px -4px;
+}
+
+#instagram {
+    background-position: -3px -46px;
+}
+
+#whatsapp {
+    background-position: -45px -46px;
+}
+
+#google {
+    background-position: -45px -4px;
+}
+
+div.teamate-desc:hover div.icons-32 {
+    opacity: 1;
+}
+
+div.teamate-desc:hover {
+    box-shadow: 0px 15px 30px 0 rgba(48, 56, 59, 0.1);
+}
+
+a.icons-social:hover {
+    background-color: #ff817e;
+}
+
+
+
+
+/*Form-appointment*/
+
+section.appointment-form {
+    display: flex;
+    background-color: #fff9f8;
+}
+
+div.appointment-photo img {
+    width: 100%;
+    height: 100%;
+}
+
+div.text-field {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 43px;
+}
+
+form.data {
+    width: 100%;
+    margin-left: 100px;
+}
+
+.style-form {
+    background-color: #fff9f8;
+    height: 35px;
+    min-width: 30%;
+    width: 45%;
+    border-top-style: none;
+    border-left-style: none;
+    border-right-style: none;
+    border-bottom-style: 1px solid #fff9f8;
+}
+
+#style-textarea {
+    width: 100%;
+    height: 110px;
+}
+
+
+/*Contacts form*/
+
+
+section.form-contacts {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-top: 95px;
+}
+
+form.contacts-desc {
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+}
+
+div.icon-desc-container {
+    display: flex;
+    width: 30%;
+    flex-direction: column;
+}
+
+div.icon-and-desc {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    margin-bottom: 56px;
+}
+
+p.desc-for-icon {
+    margin-left: 30px;
+    font-family: Roboto;
+    font-size: 14px;
+    line-height: 1.93;
+    color: #888888;
+}
+
+div.data-contact-container {
+    display: flex;
+    width: 70%;
+    margin-left: 140px;
+    flex-direction: column;
+}
+
+input.contact-data {
+    height: 50px;
+    margin-bottom: 20px;
+}
+
+input.contact-data-textarea {
+    height: 150px;
+}
+
+
+/*Footer*/
+
+
+footer {
+    display: flex;
+    width: 100%;
+    margin-top: 140px;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #fff9f8;
+}
+
+div.footer-icon, div.footer-menu, div.footer-social-icons, div.footer-copyright {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+a.menu-link {
+    height: 10px;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 3.21;
+    letter-spacing: 1.4px;
+    color: #263a41
+}
+
+p.copyright-main {
+    height: 9px;
+    font-family: Roboto;
+    font-size: 13px;
+    line-height: 1.92;
+    color: #888888;
+}
+
+a.copyright-link {
+    color: #ff817e;        
+}
+
+a.menu-link:nth-child(1), a.menu-link:nth-child(2), a.menu-link:nth-child(3), a.menu-link:nth-child(4) {
+    margin-right: 50px;
+}
+
+img.social-icons-footer:nth-child(1), img.social-icons-footer:nth-child(2), img.social-icons-footer:nth-child(3) {
+    margin-right: 31px;
+}
+
+img.social-icons-footer {
+    border-radius: 15px;
+}
+
+img.social-icons-footer:hover {
+    background-color: #ff817e;
+}
+
+
+@media screen and (max-width: 1560px) {
+    div.container-for-photoDesc, div.team-flex-container {
+        flex-direction: column;
+    }
+
+    div.procedures-desc-container, div.teamate-container {
+        margin: 0px auto 15px auto;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    div.appointment-photo {
+        display: none;
+    }
+    form.data {
+        margin: 0 5px;
+    }
+    
+    p.desc-for-icon{
+        font-size: .7em;
+    }
+
+}
